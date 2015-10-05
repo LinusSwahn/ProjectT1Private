@@ -1,0 +1,25 @@
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<FlowPane fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml" orientation="VERTICAL">
+
+    <FlowPane orientation="HORIZONTAL" minWidth="800">
+
+        <Text text="Login"/>
+
+        <Label text="User name:"/>
+
+        <TextField/>
+
+        <Label text="Password:"/>
+
+        <PasswordField fx:id="passwordField"/>
+
+
+    </FlowPane>
+
+</FlowPane>
